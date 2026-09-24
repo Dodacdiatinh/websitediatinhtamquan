@@ -152,7 +152,7 @@ export default function Home() {
                   <a href="tel:0976365597" className="rounded-xl bg-red-600 px-5 py-3.5 font-bold text-white transition hover:bg-red-700">☎ 0976 365 597</a>
                   <a href="tel:0776879333" className="rounded-xl bg-red-600 px-5 py-3.5 font-bold text-white transition hover:bg-red-700">☎ 0776 879 333</a>
                   <a href="https://zalo.me/0866745739" target="_blank" rel="noopener noreferrer" className="rounded-xl bg-blue-600 px-5 py-3.5 font-bold text-white transition hover:bg-blue-700">💬 Zalo 0866 745 739</a>
-                  <a href="https://www.google.com/maps/search/?api=1&query=242+Quang+Trung,+phường+Tam+Quan" target="_blank" rel="noopener noreferrer" className="rounded-xl border border-slate-600 px-5 py-3.5 font-bold text-white transition hover:bg-slate-800">📍 Xem bản đồ</a>
+                  <a href="https://www.google.com/maps/search/?api=1&query=242+Quang+Trung%2C+Phuong+Tam+Quan%2C+Tinh+Gia+Lai%2C+Viet+Nam" target="_blank" rel="noopener noreferrer" className="rounded-xl border border-slate-600 px-5 py-3.5 font-bold text-white transition hover:bg-slate-800">📍 Xem bản đồ</a>
                 </div>
               </div>
               <div className="border-t border-slate-700 bg-slate-800 p-7 sm:p-10 lg:border-l lg:border-t-0">
