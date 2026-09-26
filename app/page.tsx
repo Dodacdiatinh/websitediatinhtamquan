@@ -1,14 +1,14 @@
-const services = [
-  "Đo địa chính",
-  "Khảo sát địa hình",
-  "Trích lục",
-  "Cắm mốc",
-  "Tách thửa",
-  "Hợp thửa",
-  "Cấp sổ",
-  "Chuyển mục đích",
-  "Xin giấy phép xây dựng",
-  "Định vị vị trí Tim Cọc",
+﻿const services = [
+  { name: "Đo địa chính", description: "Đo đạc hiện trạng, ranh giới, diện tích thửa đất và lập hồ sơ kỹ thuật theo nhu cầu." },
+  { name: "Khảo sát địa hình", description: "Khảo sát địa hình phục vụ quy hoạch, thiết kế và xây dựng." },
+  { name: "Trích lục", description: "Hỗ trợ trích lục bản đồ, thông tin và dữ liệu đất đai." },
+  { name: "Cắm mốc", description: "Cắm mốc ranh giới, mốc phân lô và xác định vị trí ngoài thực địa." },
+  { name: "Tách thửa", description: "Hỗ trợ đo đạc và hồ sơ kỹ thuật phục vụ tách thửa." },
+  { name: "Hợp thửa", description: "Hỗ trợ đo đạc và hồ sơ kỹ thuật phục vụ hợp thửa." },
+  { name: "Cấp sổ", description: "Hỗ trợ đo đạc, hồ sơ kỹ thuật phục vụ thủ tục cấp Giấy chứng nhận." },
+  { name: "Chuyển mục đích", description: "Hỗ trợ đo đạc và hồ sơ liên quan đến nhu cầu chuyển mục đích sử dụng đất." },
+  { name: "Xin giấy phép xây dựng", description: "Hỗ trợ thông tin đo đạc, hiện trạng phục vụ hồ sơ xin giấy phép xây dựng." },
+  { name: "Định vị vị trí Tim Cọc", description: "Định vị tim cọc, xác định vị trí và chuyển điểm thiết kế ra thực địa." },
 ];
 
 const steps = [
@@ -93,12 +93,12 @@ export default function Home() {
           <SectionHeading eyebrow="Dịch vụ" title="Dịch vụ Đo Đạc & Đất Đai" description="Các dịch vụ thiết thực, tập trung vào nhu cầu đo đạc, khảo sát và hoàn thiện hồ sơ của khách hàng." />
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
             {services.map((service, index) => (
-              <div key={service} className="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-red-200 hover:shadow-md">
+              <div key={service.name} className="group rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-red-200 hover:shadow-md">
                 <div className="flex items-center gap-3">
                   <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-red-50 text-sm font-extrabold text-red-600">{String(index + 1).padStart(2, '0')}</span>
-                  <h3 className="text-base font-bold leading-6 text-slate-900 group-hover:text-red-600">{service}</h3>
+                  <h3 className="text-base font-bold leading-6 text-slate-900 group-hover:text-red-600">{service.name}</h3>
                 </div>
-                <p className="mt-3 text-sm leading-6 text-slate-500">Tư vấn và thực hiện theo nhu cầu thực tế.</p>
+                <p className="mt-3 text-sm leading-6 text-slate-500">{service.description}</p>
               </div>
             ))}
           </div>
@@ -184,3 +184,4 @@ export default function Home() {
     </main>
   );
 }
+
