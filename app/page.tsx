@@ -1,4 +1,4 @@
-﻿const services = [
+const services = [
   { name: "Đo địa chính", description: "Đo đạc hiện trạng, ranh giới, diện tích thửa đất và lập hồ sơ kỹ thuật theo nhu cầu." },
   { name: "Khảo sát địa hình", description: "Khảo sát địa hình phục vụ quy hoạch, thiết kế và xây dựng." },
   { name: "Trích lục", description: "Hỗ trợ trích lục bản đồ, thông tin và dữ liệu đất đai." },
@@ -74,8 +74,8 @@ export default function Home() {
           <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-stretch">
             <div className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm sm:p-9">
               <h3 className="text-2xl font-bold text-slate-900">Đo đạc chính xác – Hồ sơ chuyên nghiệp</h3>
-              <p className="mt-5 text-base leading-8 text-slate-600">Công ty Địa Tĩnh Tam Quan cung cấp các dịch vụ đo đạc địa chính, khảo sát địa hình và hỗ trợ hồ sơ đất đai với phương châm chính xác, uy tín và chuyên nghiệp.</p>
-              <p className="mt-4 text-base leading-8 text-slate-600">Chúng tôi hướng đến việc cung cấp giải pháp đo đạc và hồ sơ phù hợp với nhu cầu của khách hàng, góp phần giúp quá trình thực hiện thủ tục liên quan đến đất đai thuận lợi và rõ ràng.</p>
+              <p className="mt-5 text-base leading-8 text-slate-600">Địa Tĩnh Tam Quan cung cấp dịch vụ đo đạc địa chính, khảo sát địa hình, cắm mốc và hỗ trợ hồ sơ kỹ thuật đất đai tại Tam Quan và khu vực lân cận. Chúng tôi chú trọng độ chính xác, thông tin rõ ràng và quy trình thực hiện phù hợp với từng nhu cầu thực tế.</p>
+              <p className="mt-4 text-base leading-8 text-slate-600">Dịch vụ được thực hiện từ khảo sát, đo đạc, xử lý số liệu đến lập và bàn giao hồ sơ theo phạm vi công việc. Khách hàng được tư vấn rõ nội dung thực hiện trước khi triển khai.</p>
             </div>
             <div className="rounded-3xl bg-slate-900 p-7 text-white shadow-sm sm:p-9">
               <p className="text-sm font-bold uppercase tracking-[0.2em] text-red-400">Địa Tĩnh Tam Quan</p>
