@@ -1,14 +1,14 @@
 const services = [
-  { name: "Đo địa chính", description: "Đo đạc hiện trạng, ranh giới, diện tích thửa đất và lập hồ sơ kỹ thuật theo nhu cầu." },
-  { name: "Khảo sát địa hình", description: "Khảo sát địa hình phục vụ quy hoạch, thiết kế và xây dựng." },
-  { name: "Trích lục", description: "Hỗ trợ trích lục bản đồ, thông tin và dữ liệu đất đai." },
-  { name: "Cắm mốc", description: "Cắm mốc ranh giới, mốc phân lô và xác định vị trí ngoài thực địa." },
-  { name: "Tách thửa", description: "Hỗ trợ đo đạc và hồ sơ kỹ thuật phục vụ tách thửa." },
-  { name: "Hợp thửa", description: "Hỗ trợ đo đạc và hồ sơ kỹ thuật phục vụ hợp thửa." },
-  { name: "Cấp sổ", description: "Hỗ trợ đo đạc, hồ sơ kỹ thuật phục vụ thủ tục cấp Giấy chứng nhận." },
-  { name: "Chuyển mục đích", description: "Hỗ trợ đo đạc và hồ sơ liên quan đến nhu cầu chuyển mục đích sử dụng đất." },
-  { name: "Xin giấy phép xây dựng", description: "Hỗ trợ thông tin đo đạc, hiện trạng phục vụ hồ sơ xin giấy phép xây dựng." },
-  { name: "Định vị vị trí Tim Cọc", description: "Định vị tim cọc, xác định vị trí và chuyển điểm thiết kế ra thực địa." },
+  { name: "Đo địa chính", description: "Đo đạc hiện trạng, xác định ranh giới, diện tích và vị trí thửa đất; lập hồ sơ kỹ thuật phục vụ các nhu cầu về đất đai." },
+  { name: "Khảo sát địa hình", description: "Khảo sát, đo vẽ hiện trạng địa hình phục vụ quy hoạch, thiết kế, lập hồ sơ kỹ thuật và triển khai xây dựng công trình." },
+  { name: "Trích lục", description: "Hỗ trợ trích lục bản đồ, thông tin và dữ liệu đất đai phục vụ kiểm tra hiện trạng, xác định thông tin thửa đất và hoàn thiện hồ sơ." },
+  { name: "Cắm mốc", description: "Cắm mốc ranh giới, mốc phân lô và xác định vị trí ngoài thực địa theo hồ sơ, bản vẽ và yêu cầu công việc." },
+  { name: "Tách thửa", description: "Đo đạc hiện trạng và lập hồ sơ kỹ thuật phục vụ nhu cầu tách thửa, xác định diện tích, ranh giới và vị trí các thửa đất." },
+  { name: "Hợp thửa", description: "Đo đạc, xác định hiện trạng và lập hồ sơ kỹ thuật phục vụ hợp thửa, thể hiện thông tin về vị trí, ranh giới và diện tích." },
+  { name: "Cấp sổ", description: "Hỗ trợ đo đạc và lập hồ sơ kỹ thuật phục vụ thủ tục cấp Giấy chứng nhận quyền sử dụng đất theo nhu cầu của khách hàng." },
+  { name: "Chuyển mục đích", description: "Hỗ trợ đo đạc, xác định hiện trạng và cung cấp hồ sơ kỹ thuật liên quan đến nhu cầu chuyển mục đích sử dụng đất." },
+  { name: "Xin giấy phép xây dựng", description: "Hỗ trợ đo đạc hiện trạng, xác định vị trí và cung cấp thông tin kỹ thuật phục vụ hồ sơ xin giấy phép xây dựng." },
+  { name: "Định vị vị trí Tim Cọc", description: "Định vị tim cọc, xác định tọa độ và vị trí công trình, chuyển các điểm thiết kế từ hồ sơ ra thực địa phục vụ thi công." },
 ];
 
 const steps = [
